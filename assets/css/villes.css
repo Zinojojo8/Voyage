@@ -36,6 +36,7 @@ body {
 /* Logo */
 .navbar-brand {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 0.8rem;
     font-size: 1.8rem;
@@ -92,6 +93,7 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    flex-direction: row;
 }
 
 .nav-link i {
