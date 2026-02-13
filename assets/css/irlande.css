@@ -46,7 +46,6 @@ body {
       background: white;
       border-radius: 12px;
       box-shadow: 6px 8px 8px rgba(0, 0, 0, 0.697);
-      width: 25%;
       margin-top: 1%;
       max-width: 100%;
     
@@ -510,6 +509,15 @@ body {
 }
 
 @media (max-width: 768px) {
+main{
+    .ligne{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       
+    }
+}
+    
   .navbar-collapse {
     background: rgba(102, 126, 234, 0.95);
     margin-top: 1rem;
